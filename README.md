@@ -45,6 +45,16 @@ Output #1:
 Change Occured #1:
 Changing the Offset of the training period to 1 month caused for the algorithm to overpredict the returns when the the chart was trading sideways from 2016-2018 to where when the offset was 3, and 6 the algorithm predicted 2016-2018 nearly perfectly.  With the offset of 1 month the algorithm overpredicted every return from 2016-2021 (.1%)-(1%) over the actual returns.
 
+Input Change #2:
 
+-short_window = 4 days 
+-long_window = 100 days 
+![DD7E473A-5AA2-4F54-82C0-4789BC25AF91_4_5005_c](https://user-images.githubusercontent.com/98767273/184022776-a23c0397-a49f-4383-ba79-2801c85f9528.jpeg)
 
+-'month=2' as parameter in DateOffset()
+![AF6BC40E-649C-4723-B393-CC9A08342EDF_4_5005_c](https://user-images.githubusercontent.com/98767273/184023191-fc183b46-f685-4cb3-a7bf-7cee82bf77d9.jpeg)
 
+Output #2:
+![E1BDEC4A-7AA5-4536-B200-0661F519422E](https://user-images.githubusercontent.com/98767273/184023259-6029a997-5164-4b44-8443-98487d31202c.jpeg)
+
+Change Occured #2:
