@@ -1,5 +1,5 @@
 # SVCvsLOGREG_tradingalgorithm
-trading algorithm testing support vector machines and logistic regression
+trading algorithm testing support vector machines and AdaBoost
 
 Tuning of the training data time frame, and moving average windows(time). 
 
