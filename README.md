@@ -58,3 +58,4 @@ Output #2:
 ![E1BDEC4A-7AA5-4536-B200-0661F519422E](https://user-images.githubusercontent.com/98767273/184023259-6029a997-5164-4b44-8443-98487d31202c.jpeg)
 
 Change Occured #2:
+With 'month=2' as the parameter for the DateOffset. The predictions returned closer to the actual returns when the graph was trading sideways between 2016-2018. When the first trend reversal happed it overpredicted the returns but eventually 'recalibrates' with the actual returns between 2020-2021.
